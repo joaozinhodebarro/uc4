@@ -1,6 +1,10 @@
-import { Cachorro } from "./Cachorro";
+// 
 
-const cachorro:Cachorro = new Cachorro ("goldem-retriever", "marley", 4, "amarelo")
 
-cachorro.fazerSom()
-cachorro.getnome
+import { Guerreiro } from "./Guerreiro"
+
+const guerreiro1 = new Guerreiro("Fulano", "Ferro")
+
+guerreiro1.mostrarDados()
+guerreiro1.usarEscudo()
+guerreiro1.curar()
