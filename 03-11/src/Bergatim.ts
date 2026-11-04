@@ -5,13 +5,13 @@ export class Bergantim extends Navio{
         super(nome, 20, 100,100, 80, 8);
     }
 
-    public override navegar(): void {
+    public  navegar(): void {
         console.log(
             `${this.nome} aproveita os ventos favoráveis para navegar rapidamente!`
         );
     }
 
-    public override atacar(): void {
+    public atacar(): void {
         console.log(
             `${this.nome} realiza uma sequência rápida de disparos!`
         );
